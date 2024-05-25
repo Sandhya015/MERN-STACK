@@ -4,9 +4,9 @@ const router = require("./router/auth-router");
 
 app.use(express.json());
 
-app.use("/api/auth",router)
+app.use("/api/auth", router);
 
-const PORT=5000;
-app.listen(PORT,()=>{
+const PORT = 5000;
+app.listen(PORT, () => {
     console.log(`Server is running on port: ${PORT}`);
 });
