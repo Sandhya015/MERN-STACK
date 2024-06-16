@@ -50,6 +50,8 @@ const login = async (req,res)=> {
                 userId:userCreated._id.toString(),
 
             });
+        }else{
+            res.status(401).json({msg:"invalid user"})
         }
     }
 
@@ -60,4 +62,4 @@ const login = async (req,res)=> {
     }
 }
 
-module.exports = { home, register };
+module.exports = { home, register,login };
