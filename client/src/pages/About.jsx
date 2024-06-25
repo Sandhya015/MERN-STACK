@@ -1,4 +1,4 @@
 export const About = ()=> {
     
-    return <h1>Hello Homepage</h1>
+    return <h1>Hello About page</h1>
 }; 
