@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 144rem;
+    padding: 4.2rem 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-brand a {
+    text-decoration: none;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+nav {
+    margin-left: auto; /* Pushes the nav to the right */
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 3.2rem;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    transition: color 0.3s ease;
+}
+
+.nav-list li a:hover,
+.nav-list li .active {
+    color: #007BFF; /* Change color on hover and active */
+}
