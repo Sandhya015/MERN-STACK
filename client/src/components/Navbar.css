@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .container {
@@ -20,11 +20,11 @@ body {
     text-decoration: none;
     font-size: 2.4rem;
     font-weight: bold;
-    color: black;
+    color: rgb(232, 220, 220);
 }
 
 nav {
-    margin-left: auto; /* Pushes the nav to the right */
+    margin:auto; /* Pushes the nav to the right */
 }
 
 .nav-list {
@@ -35,12 +35,12 @@ nav {
 
 .nav-list li a {
     text-decoration: none;
-    color: black;
+    color: rgb(221, 214, 240);
     font-size: 1.6rem;
     transition: color 0.3s ease;
 }
 
-.nav-list li a:hover,
+/* .nav-list li a:hover,
 .nav-list li .active {
-    color: #007BFF; /* Change color on hover and active */
-}
+    color: #007BFF; 
+} */
