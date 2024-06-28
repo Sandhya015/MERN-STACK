@@ -1,3 +1,5 @@
+![Screenshot from 2024-06-28 23-51-28](https://github.com/Sandhya015/MERN-STACK/assets/144054124/7d712087-2a4f-42da-8fca-42da9a0d0a93)
+![Screenshot from 2024-06-28 23-51-28](https://github.com/Sandhya015/MERN-STACK/assets/144054124/7d712087-2a4f-42da-8fca-42da9a0d0a93)
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
