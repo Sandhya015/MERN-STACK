@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Contact.css'; // Assuming you have a CSS file for styling
+import './Contact.css'; 
 
 export const Contact = () => {
   const [showContent, setShowContent] = useState([false, false, false]);
@@ -10,13 +10,19 @@ export const Contact = () => {
     setShowContent(updatedShowContent);
   };
 
+  const images = [
+    '/images/sandhya.png',
+    '/images/pallavi.png',
+    '/images/sahan.png'
+  ];
+
   return (
     <div className="contact-container">
       <div className="contact-left">
         {['Person 1', 'Person 2', 'Person 3'].map((person, index) => (
           <div key={index} className="contact-person">
             <img
-              src={`/images/sandhya.png`} // Replace with your image paths
+              src={images[index]} 
               alt={person}
               className="contact-image"
               onClick={() => handleToggle(index)}
@@ -44,6 +50,14 @@ export const Contact = () => {
         <h2>What to Contact</h2>
         <p>
           Feel free to contact us for any questions related to our educational content, resources, or any other inquiries you may have. We are here to help and provide you with the information you need.
+        </p>
+        <h2>Why to Contact</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut esse, minus tenetur, libero adipisci quasi natus qui quam in, deserunt quisquam suscipit fugiat neque sunt necessitatibus quas sint laborum ullam!
+        </p>
+        <h2>Helps You will get</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias ex deleniti ea dignissimos dolore aut nihil adipisci amet, sequi dolor provident architecto molestiae, impedit reprehenderit in non, quis maxime nemo sapiente. In consectetur asperiores esse iste doloremque velit aperiam neque! Magni rem fugit veritatis omnis! Placeat provident cupiditate ullam, doloribus recusandae quae animi voluptatum reprehenderit enim, tempore ab, quisquam sint commodi error quas libero. Possimus a labore provident repellendus hic modi quae voluptatibus vitae suscipit facere. Excepturi distinctio quam quis, numquam iste veritatis quas architecto vero praesentium animi consequatur odio!
         </p>
       </div>
     </div>
